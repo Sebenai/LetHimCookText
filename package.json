@@ -1,0 +1,25 @@
+{
+  "name": "lethimcooktext",
+  "version": "1.0.0",
+  "description": "Aplikasi JS untuk memanipulasi dan memproses teks",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "bundle": "webpack",
+    "bundle:start-dev-server": "webpack serve"
+  },
+  "keywords": [
+    "text",
+    "editor"
+  ],
+  "author": "Adhiansyah Ancha",
+  "license": "MIT",
+  "dependencies": {
+    "codemirror": "^6.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
